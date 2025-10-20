@@ -1,0 +1,13 @@
+class Storage {
+    String swoim = "tajne";
+    String nośnikiem = "danych";
+
+    void show() {
+        System.out.println(swoim + " " + nośnikiem);
+    }
+
+    public static void main(String[] args) {
+        Storage s = new Storage();
+        s.show();
+    }
+}
